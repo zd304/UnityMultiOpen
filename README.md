@@ -1,8 +1,10 @@
 # UnityMultiOpen
 
+推荐使用MultiOpen_BAT，不推荐使用MultiOpen_CPP。
+
 ## Unity多开器使用说明
 
-1. 创建一个新目录（例如E:\MHCT_MKLINK）。用于从原目录（例如E:\MHCT\Client\MProject）创建链接（mklink）到新目录
-2. 用文本编辑打开config.ini，把本机上的原目录填到第一行，新目录填到第二行
-3. 用管理员模式打开multiOpen.exe
-4. 用Unity打开新目录（例如E:\MHCT_MKLINK）的工程
+1. 创建一个新目录（例如D:\WorkSpace\hide2）。用于从原目录（例如D:\WorkSpace\hide）创建链接（mklink）到新目录
+2. 用文本编辑打开config.ini，把本机上的原目录填到第一行（srcPath="原目录"），新目录填到第二行（dstPath="新目录"）
+3. 双击运行multiOpen.bat
+4. 用UnityHub打开新目录（例如D:\WorkSpace\hide2）的工程
